@@ -1,0 +1,99 @@
+body {
+    margin-bottom: 500px;
+}
+
+/* 3 - esternal css */
+
+h3 {
+    color: green;
+}
+
+/* classes */
+
+.paragraph {
+    background-color: #171717;
+    color: aquamarine;
+    padding: 5px;
+}
+
+/* id */
+
+#p1 {
+    background-color: #171717;
+    color: gold;
+    padding: 10px;
+    
+}
+
+/* ordem do css */
+
+h2 {
+    border-bottom: 2px solid red;
+}
+.título {
+    border-bottom: 3px solid blue;
+}
+
+#algum-título{
+    border-bottom: 4px solid green;
+}
+
+.color-name {
+    color: deeppink;
+}
+
+.color-hex {
+    color: #55a398;
+}
+
+.color-rgb {
+    color: rgb(255, 0, 0);
+}
+
+.mixed-rgb {
+    color: rgb(199,21,45);
+}
+
+.color-rgba {
+    color: rgba(0, 0, 155, 0.5);
+}
+
+.color-hsl {
+    color: hsl(240, 100%, 50%);
+}
+
+.background-color {
+    background-color: #000;
+    color: yellow;
+}
+
+.background-color2 {
+    background-color: rgb(200, 20, 40);
+    color: #00eaff;
+}
+
+.bg-opacity {
+    background-color: rgba(0, 0, 155, 0.5);
+    opacity: .2;
+}
+
+.bg-opacity2 {
+    background-color: #999;
+    color: #000;
+    opacity:.8;
+}
+
+.rgba-opacity {
+    background-color: rgba(90, 120, 20, .2);
+    color: #000;
+}
+
+.bg-image {
+    background-image: url(/3_CSS/img/cruzeiro-torcida2.jpg);
+    padding: 10px;
+    color: aliceblue;
+    background-size: cover;
+    background-position: center;
+    width: 400px;
+    height: 400px;
+}
